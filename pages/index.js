@@ -36,8 +36,7 @@ export default function Home() {
         <section className={styles.description}>
           <p>
             Associazione Taiwan e Italia (ATI)
-            成立於義大利，是一個由熱愛台灣的人組成的非營利協會，推動台灣-義大利間文化交流及商業合作為宗旨的非營利協會組織，ATI的願景是串聯整個義大利僑界民間努
-            力，在台灣和義大利之間搭建更多合作的橋樑，也是個重要的平台。因此，於2022年正式成立了「義大利台灣交流協會（ATI）」，希望能夠促進兩地更多的交流，
+            成立於義大利，是一個由熱愛台灣的人組成的非營利協會，推動台灣-義大利間文化交流及商業合作為宗旨的非營利協會組織，ATI的願景是串聯整個義大利僑界民間努力，在台灣和義大利之間搭建更多合作的橋樑，也是個重要的平台。因此，於2022年正式成立了「義大利台灣交流協會（ATI）」，希望能夠促進兩地更多的交流，
             也給兩地未來下一代提供更多的合作可能，推動更多的雙向互動，進而走向國際舞台。我們
             透過舉辦和參與義大利各地的活動，整合兩地的民間和官方資源，促進企業、文化藝術工作者、公益團體之間的合作，期望增進兩地交流，為未來的合作提供更多可
             能性，共同推動國際文化和商業交流。
@@ -47,18 +46,61 @@ export default function Home() {
           <div className={styles.goalContainer}>
             <h2>ATI的三大方向</h2>
             <ul>
-              <li>
-                <div>文化合作</div>
-                <span class="material-symbols-outlined">add</span>
-              </li>
-              <li>
-                <div>學術合作</div>
-                <span class="material-symbols-outlined">add</span>
-              </li>
-              <li>
-                <div>商業合作</div>
-                <span class="material-symbols-outlined">add</span>
-              </li>
+              <label htmlFor="q1">
+                <li>
+                  <input type="checkbox" name="q1" id="q1" />
+                  <div className={styles.listItem}>
+                    <div>文化合作</div>
+                    <span class="material-symbols-outlined">add</span>
+                  </div>
+                  <div className={styles.content}>
+                    <p>
+                      在義大利以深入台灣文化為主的活動內容 ,
+                      反之在台灣則以義大利藝術設計文化為主題，在台也可以積極推辦義大利藝術家駐村、工作坊等等。
+                    </p>
+                    <p>
+                      每年固定時間舉辦，內容包含音樂、舞蹈、畫展、
+                      視覺藝術等等，以演出、展覽
+                      、工作坊、座談為主與各個不同的藝術機構團體合作合辦,
+                      ATI交協協會主要負責爭取免費（或補助）場地，內容整合，與活動執行。除了著重在文化藝術的交流外
+                      ，更希望可以促進藝術商貿上的互動及專業發展。協會積極增進與當地重要基金會/團體的互動，以增加當地的支援。
+                    </p>
+                  </div>
+                </li>
+              </label>
+              <label htmlFor="q2">
+                <li>
+                  <input type="checkbox" name="q2" id="q2" />
+                  <div className={styles.listItem}>
+                    <div>學術合作</div>
+                    <span class="material-symbols-outlined">add</span>
+                  </div>
+                  <div className={styles.content}>
+                    <p>
+                      臺灣華語文學習中心（Taiwan Center for Mandarin
+                      Learning）是由中華民國僑委會於2021年6月起推動的海外華語文學習計劃，旨在輔助歐美地區為主的僑校成立學習中心，以教授及推廣具臺灣特色之華語文教學。其課程以正體字為主，教科書主要為僑委會自編教之華語文教材，以18歲以上之成年人為授課對象。
+                    </p>
+                    <p>
+                      ATI協助台灣僑委會海外華語文學習中心成立計劃內容，於SIENA成立正式學習中心，以推展正體華語文化為。羅馬設置分部，與原有的語文學校搭配。米蘭設置分部，與SIENA設置模式相同，開立僑民學童班級及商業實務課程
+                      。
+                    </p>
+                  </div>
+                </li>
+              </label>
+              <label htmlFor="q3">
+                <li>
+                  <input type="checkbox" name="q3" id="q3" />
+                  <div className={styles.listItem}>
+                    <div>商業合作</div>
+                    <span class="material-symbols-outlined">add</span>
+                  </div>
+                  <div className={styles.content}>
+                    <p>
+                      媒合台義在商業、科技等領域進行多元聯合運作模式。協助產業與品牌進行跨界之品牌開發及通路整合。協助企業與媒體規劃國際行銷策略，並提供在地資源媒合。
+                    </p>
+                  </div>
+                </li>
+              </label>
             </ul>
           </div>
         </section>
